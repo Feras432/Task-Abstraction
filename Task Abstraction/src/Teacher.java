@@ -11,7 +11,7 @@ public class Teacher extends Person {
     @Override
     void describeRole() {
         System.out.println(getName() + " is a teacher that teaches " + subject +
-                ", and is associated with " + school);
+                ", and is associated with " + school + " school.");
     }
 
 }
